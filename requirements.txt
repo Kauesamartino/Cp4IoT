@@ -1,0 +1,2 @@
+# Shared dependencies for training and inference
+-r deploy_ml/requirements.txt
