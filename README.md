@@ -12,6 +12,7 @@ API REST construída com Flask que expõe um modelo de **Random Forest** treinad
 Cp4IoT/
 ├── questao_01.csv          # Dataset original
 ├── train.py                # Script de treinamento do modelo
+├── requirements.txt        # Dependências para treino e inferência
 └── deploy_ml/
     ├── modelo.pkl          # Modelo treinado (Random Forest + LabelEncoder)
     ├── inference.py        # API Flask para inferência via HTTP
@@ -27,7 +28,7 @@ Cp4IoT/
 ## Treinamento do Modelo
 
 ```bash
-pip install -r deploy_ml/requirements.txt scikit-learn pandas
+pip install -r requirements.txt
 python train.py
 ```
 
